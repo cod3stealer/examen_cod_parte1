@@ -14,7 +14,9 @@ Al terminar la modificación de dicho archivo, lo guardo y hago el commit el rep
 
 3. git add .
 4. git commit -m "modificacion del readme"
-5. git push -u origin master
+5. git branch -M main
+6. git remote add origin https://github.com/cod3stealer/wtgarg.git
+7. git push -u origin main
 Luego, para meter un programa al repositorio ejecuto el comando 'mv programa RutaDelRepositorio'
 Para terminar hago lo mismo que antes,
 git add.
